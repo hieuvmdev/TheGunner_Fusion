@@ -98,8 +98,8 @@ The `GameEditor` script is a custom **Unity Editor Window** that provides variou
 
 Once the project is set up, follow these steps to test the multiplayer functionality:
 
-## **Run the game manually:** Open `LoadingScene`, press Play in Unity Editor.
-## **Run the game by Game Editor Tool:** Open `GameEditor`, press `Start The Game`.
+- **Run the game manually:** Open `LoadingScene`, press Play in Unity Editor.
+- **Run the game by Game Editor Tool:** Open `GameEditor`, press `Start The Game`.
 
 # Testing the Project 
 
