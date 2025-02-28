@@ -7,8 +7,9 @@
 - [Features](#features)
 - [Setup Instructions](#setup-instructions)
 - [Testing the Project](#testing-the-project)
+- [Game Screen Shot](#game-screen-shot)
 - [Tools and Libraries Used](#tools-and-libraries-used)
-- [Game Editor Tutorial Tool](#Game Editor Tutorial Tool)
+- [Game Editor Tutorial Tool](#game-editor-tutorial-tool)
 - [License](#license)
 
 ## Features
@@ -96,7 +97,11 @@ The `GameEditor` script is a custom **Unity Editor Window** that provides variou
 
 ---
 
-## Testing the Project With Game Editor
+# Game Screen Shot
+
+- You can check out my game first in folder /GameScreenShot
+
+# Testing the Project With Game Editor
 
 Once the project is set up, follow these steps to test the multiplayer functionality:
 
@@ -104,7 +109,7 @@ Once the project is set up, follow these steps to test the multiplayer functiona
 2. **Connect a Client:** Run another instance of the game (either in a new Editor window or a standalone build).
 3. **Simulate Multiplayer:** Move characters, shoot, and test latency in real-time.
 
-## Testing the Project 
+# Testing the Project 
 
 1. **Window** Open `TheGunner_Fusion.exe` in folder Build/PC
 1. **MacOS** Open `TheGunner_Fusion.exe` in folder Build/MacOS
