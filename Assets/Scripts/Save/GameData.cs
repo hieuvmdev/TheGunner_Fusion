@@ -14,6 +14,8 @@ public partial class GameData
     {
         _saveGameMgr = saveGameMgr;
         _gameE = gameE;
+
+        NickName = "Guest - " + UnityEngine.Random.Range(100000, 99999);
     }
 
     public void SetStartTime(DateTime start)
@@ -23,17 +25,6 @@ public partial class GameData
     }
 
     public string NickName
-    {
-        get
-        {
-#if UNITY_EDITOR
-            return "Guest (ED) - " + PlayerPrefs.GetInt("GuestID", UnityEngine.Random.Range(100000, 99999));
-
-#else
-            return "Guest - " + PlayerPrefs.GetInt("GuestID", UnityEngine.Random.Range(100000, 99999));
-#endif
-        }
-    }
 
     public DateTime UTCNow
     {
