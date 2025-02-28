@@ -8,7 +8,7 @@
 - [Setup Instructions](#setup-instructions)
 - [Testing the Project](#testing-the-project)
 - [Tools and Libraries Used](#tools-and-libraries-used)
-- [Contributing](#contributing)
+- [Game Editor Tutorial Tool](#Game Editor Tutorial Tool)
 - [License](#license)
 
 ## Features
@@ -16,7 +16,9 @@
 - **Real-time Multiplayer:** Seamless networking using Photon Fusion.
 - **Third-Person Shooter Mechanics:** Core TPS gameplay elements.
 - **Scalable Architecture:** Designed to support multiple players with minimal latency.
-- **Completed Feature: **: Movement, Shooting, Leaderboard, System Message, Basic Game Flow.
+- **Completed Feature: ** Movement, Shooting, Leaderboard, System Message, Basic Game Flow.
+- **Max Player: ** 4
+- **Team: ** 4
 
 ## Setup Instructions
 
@@ -52,9 +54,9 @@ Photon Fusion is the networking library used in this project. To import it:
 1. 	Create a Photon account.
 2. In the Photon Dashboard, create a new Fusion application to obtain your App ID.
 3. In Unity, navigate to Photon Fusion > Fusion Hub > Setup.
-4. Paste your App ID into the appropriate field. (You can use my Test App Id: ```57be1194-0b6b-4133-ad6f-959f41a97aa5```)
+4. Paste your App ID into the appropriate field. (You can use my Test App Id: ```57be1194-0b6b-4133-ad6f-959f41a97aa5```
 
-# Unity GameEditor Tutorial
+# Game Editor Tutorial Tool
 
 ## **Overview**
 The `GameEditor` script is a custom **Unity Editor Window** that provides various tools to **manage scenes, start the game, and take screenshots**. This is useful for developers who want to quickly switch between scenes, start the game from a specific point, or capture in-game screenshots during development.

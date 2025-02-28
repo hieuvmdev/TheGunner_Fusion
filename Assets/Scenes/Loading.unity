@@ -844,6 +844,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6718696484148153119, guid: 579fd0d1d00115c46b11ce024d64d517,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8996655373585152213, guid: 579fd0d1d00115c46b11ce024d64d517,
         type: 3}
       propertyPath: m_Name

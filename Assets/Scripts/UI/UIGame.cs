@@ -21,7 +21,7 @@ public class UIGame : SingletonMonoAwake<UIGame>
     [SerializeField] private SystemMessageController systemMessageController;
 
     [SerializeField] private PausePanel pausePanel;
-    [SerializeField] private LoadingPanel loadingScenePanel;
+    [SerializeField] private BasePanel loadingScenePanel;
 
     // Start is called before the first frame update
     public void Initialized()
@@ -187,7 +187,7 @@ public class UIGame : SingletonMonoAwake<UIGame>
             spawnDelaySlider.gameObject.SetActive(true);
         }
 
-        spawnDelayText.text = Mathf.Ceil(time) + "";
+        spawnDelayText.text = "Respawning In " + Mathf.Ceil(time) + "";
         spawnDelaySlider.value = time / respawnTime;
     }
 

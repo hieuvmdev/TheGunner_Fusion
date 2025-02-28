@@ -557,12 +557,17 @@ PrefabInstance:
     - target: {fileID: 2093878732983453950, guid: 1929ed1893d299a4cb821d8539b8e71f,
         type: 3}
       propertyPath: m_Name
-      value: AudioSource
+      value: BGAudioSource
       objectReference: {fileID: 0}
     - target: {fileID: 2637588305214724675, guid: 1929ed1893d299a4cb821d8539b8e71f,
         type: 3}
       propertyPath: m_Volume
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637588305214724675, guid: 1929ed1893d299a4cb821d8539b8e71f,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3720210586171218140, guid: 1929ed1893d299a4cb821d8539b8e71f,
         type: 3}

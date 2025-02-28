@@ -118,7 +118,7 @@ public class LevelController : ManualSingletonMono<LevelController>
         }
 
         _deathsCounter++;
-        _uiGame.UpdateKillsCounterTxt(_deathsCounter);
+        _uiGame.UpdateDeathsCounterTxt(_deathsCounter);
 
         if (killer == null)
         {

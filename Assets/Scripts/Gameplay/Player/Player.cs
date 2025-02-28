@@ -14,7 +14,7 @@ using static Bullet;
 [RequireComponent(typeof(NetworkCharacterController))]
 public class Player : FusionPlayer
 {
-    public bool IsActivated => (gameObject.activeInHierarchy && (state == PlayerState.Active || state == PlayerState.Appear));
+    public bool IsActivated => (Object != null && Object.IsValid && gameObject.activeInHierarchy && (state == PlayerState.Active || state == PlayerState.Appear));
     public bool IsRespawningDone => state == PlayerState.Appear && respawnTimer.Expired(Runner);
     public bool IsDeath => state == PlayerState.Dead;
 
@@ -414,7 +414,10 @@ public class Player : FusionPlayer
     [Rpc(RpcSources.All, RpcTargets.All, Channel = RpcChannel.Reliable)]
     public void RpcOnDeath(int senderId) 
     {
-        _uiGame.ShowMessage(senderId + " Kills " + PlayerName);
+        // Find Player name by senderId
+        string killerName = GameManager.Instance.GetPlayerByIndex<Player>(senderId).PlayerName;
+
+        _uiGame.ShowMessage(killerName + " Kills " + PlayerName);
 
         Debug.Log("sender: " + senderId + "-" + PlayerIndex + "-" + PlayerName + "-" + LevelController.Instance.LocalPlayer.PlayerIndex + "-" + IsBot);
         if (LevelController.Instance.LocalPlayer.PlayerIndex == senderId)
@@ -512,6 +515,11 @@ public class Player : FusionPlayer
                 break;
             case PlayerState.Dead:
                 SoundManager.Instance.Play3DSFX(AudioEnum.Player_Explosion, transform.position);
+
+                GameObject explosion = PoolManager.Instance.GetObjectFromPool("PlayerExplosion", transform.position, Quaternion.identity);
+                explosion.SetActive(true);
+
+                ColorChanger.ChangeColor(explosion.transform, _playerColor);
 
                 networkCharacterController.Velocity = Vector3.zero;
                 ActiveVisual(false);
