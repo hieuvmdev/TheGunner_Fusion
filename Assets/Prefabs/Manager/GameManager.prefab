@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3504462488070097776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 492469392383941245}
+  - component: {fileID: 4151370865748017030}
+  - component: {fileID: 2160915021764879091}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492469392383941245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3504462488070097776}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4151370865748017030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3504462488070097776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e2c383be999df47b20fb8fde6b3062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerPrefab:
+  - {fileID: 7487544208314151194, guid: b30ee58b60e7ea9439c2ed6dcb6b4122, type: 3}
+  _botPrefab:
+  - {fileID: 7487544208314151194, guid: b30ee58b60e7ea9439c2ed6dcb6b4122, type: 3}
+  _playerRefByIndex:
+    _items: []
+  _teamSize: 00000000000000000000000000000000
+  teamDatas:
+  - Name: RED
+    TeamColor:
+      serializedVersion: 2
+      rgba: 255
+    TeamMaterial: {fileID: 0}
+  - Name: Blue
+    TeamColor:
+      serializedVersion: 2
+      rgba: 16755712
+    TeamMaterial: {fileID: 0}
+  - Name: Green
+    TeamColor:
+      serializedVersion: 2
+      rgba: 65332
+    TeamMaterial: {fileID: 0}
+  - Name: Purple
+    TeamColor:
+      serializedVersion: 2
+      rgba: 16711861
+    TeamMaterial: {fileID: 0}
+--- !u!114 &2160915021764879091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3504462488070097776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 1514368795
+  ObjectInterest: 1
+  Flags: 131073
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 4151370865748017030}
+  ForceRemoteRenderTimeframe: 0

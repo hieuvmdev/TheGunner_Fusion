@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc647f6e147c3d40b39de4eb2752595, type: 3}
+  m_Name: TeamMasterData
+  m_EditorClassIdentifier: 
+  TeamData:
+  - Name: Red
+    TeamColor:
+      serializedVersion: 2
+      rgba: 4278190335
+    TeamMaterial: {fileID: 2100000, guid: fa07b28697c7e244cacd53822c01352b, type: 2}
+    HeadMat: {fileID: 2100000, guid: 0d8342e92df399841a18097b8117fd3d, type: 2}
+    BodyMat: {fileID: 2100000, guid: 725da51f3401fc74b8259e98dbfa554a, type: 2}
+    WeaponMat: {fileID: 2100000, guid: 4049f4d8dcacf8149a5736569bb02705, type: 2}
+  - Name: Blue
+    TeamColor:
+      serializedVersion: 2
+      rgba: 4294939648
+    TeamMaterial: {fileID: 2100000, guid: 5ebff6e97570ed544b01e0ef32ea8fd0, type: 2}
+    HeadMat: {fileID: 2100000, guid: 2d561af4db4aa9d4eb8316cbc3a8794e, type: 2}
+    BodyMat: {fileID: 2100000, guid: 635e7005b31ab76479c339afc8eb13a3, type: 2}
+    WeaponMat: {fileID: 2100000, guid: d704568044f410f4dab1e2555951d4db, type: 2}
+  - Name: Green
+    TeamColor:
+      serializedVersion: 2
+      rgba: 4278255361
+    TeamMaterial: {fileID: 2100000, guid: 141108e7ff50e6443b95288f13948cf0, type: 2}
+    HeadMat: {fileID: 2100000, guid: 538bee02d7e23d24d814f809c26914c4, type: 2}
+    BodyMat: {fileID: 2100000, guid: 7eec324a8b3a4c242b86098ca5ad7454, type: 2}
+    WeaponMat: {fileID: 2100000, guid: 583b736468a05bb4cb8776988c0a8664, type: 2}
+  - Name: Purple
+    TeamColor:
+      serializedVersion: 2
+      rgba: 4294901861
+    TeamMaterial: {fileID: 2100000, guid: 2176fe63cd617614ca388f91c7d0b119, type: 2}
+    HeadMat: {fileID: 2100000, guid: d59538186759edd408d07d9f385e143d, type: 2}
+    BodyMat: {fileID: 2100000, guid: 5cbb4360aee8d434780f1f5c4b928656, type: 2}
+    WeaponMat: {fileID: 2100000, guid: a7fc45c8f07a2d047a805c62c01f3541, type: 2}

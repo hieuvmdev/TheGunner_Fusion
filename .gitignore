@@ -1,0 +1,16 @@
+.vs/
+.vsconfig
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp-Editor-firstpass.csproj
+Assembly-CSharp-firstpass.csproj
+BattleRoyale_Test.sln
+Fusion.Unity.csproj
+Fusion.Unity.Editor.csproj
+Unity.Fusion.CodeGen.csproj
+TheGunner_Fusion.sln
+UserSettings/
+Temp/
+Library/
+Logs/
+obj/

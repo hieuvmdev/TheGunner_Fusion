@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4aee5ff9a91c65046b1e52c69394a883
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240055
+  packageName: Cartoon Army Universe
+  packageVersion: 1.3
+  assetPath: Assets/CartoonArmyUniverse/Settings/UniversalRenderPipelineGlobalSettings.asset
+  uploadId: 677767
