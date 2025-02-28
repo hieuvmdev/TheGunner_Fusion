@@ -15,7 +15,7 @@ public partial class GameData
         _saveGameMgr = saveGameMgr;
         _gameE = gameE;
 
-        NickName = "Guest - " + UnityEngine.Random.Range(100000, 99999);
+        NickName = "Guest - " + UnityEngine.Random.Range(100000, 999999);
     }
 
     public void SetStartTime(DateTime start)
