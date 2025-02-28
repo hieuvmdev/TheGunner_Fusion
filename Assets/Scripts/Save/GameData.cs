@@ -24,7 +24,7 @@ public partial class GameData
         _startTime = start;
     }
 
-    public string NickName
+    public string NickName;
 
     public DateTime UTCNow
     {
