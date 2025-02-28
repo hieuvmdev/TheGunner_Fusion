@@ -17,9 +17,9 @@
 - **Real-time Multiplayer:** Seamless networking using Photon Fusion.
 - **Third-Person Shooter Mechanics:** Core TPS gameplay elements.
 - **Scalable Architecture:** Designed to support multiple players with minimal latency.
-- **Completed Feature: ** Movement, Shooting, Leaderboard, System Message, Basic Game Flow.
-- **Max Player: ** 4
-- **Team: ** 4
+- **Completed Feature:** Movement, Shooting, Leaderboard, System Message, Basic Game Flow.
+- **Max Player:** 4
+- **Team:** 4
 
 ## Setup Instructions
 
@@ -42,15 +42,8 @@ Ensure you have [Unity](https://unity.com/) installed. This project was develope
 2. Click on the **"Open"** button.
 3. Navigate to the cloned `TheGunner_Fusion` directory and select it.
 4. Unity will load the project; this may take a few moments.
-
-### 4. Import Photon Fusion
-
-Photon Fusion is the networking library used in this project. To import it:
-
-1. Open the Unity Asset Store or the [Photon Fusion website](https://doc.photonengine.com/fusion).
-2. Download and import Photon Fusion into your project.
 	
-### 5. Configure Photon Fusion
+### 4. Configure Photon Fusion
 
 1. 	Create a Photon account.
 2. In the Photon Dashboard, create a new Fusion application to obtain your App ID.
@@ -105,14 +98,13 @@ The `GameEditor` script is a custom **Unity Editor Window** that provides variou
 
 Once the project is set up, follow these steps to test the multiplayer functionality:
 
-1. **Run the Server Instance:** Open `MainScene`, press Play in Unity Editor.
-2. **Connect a Client:** Run another instance of the game (either in a new Editor window or a standalone build).
-3. **Simulate Multiplayer:** Move characters, shoot, and test latency in real-time.
+## **Run the game manually:** Open `LoadingScene`, press Play in Unity Editor.
+## **Run the game by Game Editor Tool:** Open `GameEditor`, press `Start The Game`.
 
 # Testing the Project 
 
 1. **Window** Open `TheGunner_Fusion.exe` in folder Build/PC
-1. **MacOS** Open `TheGunner_Fusion.exe` in folder Build/MacOS
+1. **MacOS** Open `TheGunner_Fusion` in folder Build/MacOS
 
 ## Tools and Libraries Used
 
